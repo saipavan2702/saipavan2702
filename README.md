@@ -1,4 +1,7 @@
-### Hi there 👋
+<div align="center">
+
+# Hi, I'm saipavan2702 👋
+
 
 Hey there! 
 I’m Sai Pavan, a software engineer based in India.
@@ -14,9 +17,7 @@ Fun Facts:
  - Hobbies: anime, gym, building things
 
 
-<div align="center">
 
-# Hi, I'm saipavan2702 👋
 
 [![GitHub](https://www.shieldcn.dev/badge/GitHub-%40saipavan2702-181717.svg?logo=github&variant=branded&theme=green&font=geist)](https://github.com/saipavan2702)
 
