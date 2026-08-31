@@ -1,0 +1,44 @@
+name: Refresh profile card
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - profile_card.py
+      - .github/workflows/profile-card.yml
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-card
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate light and dark cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python profile_card.py
+
+      - name: Commit changed public stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-dark.svg profile-light.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: refresh profile card"
+          git push

@@ -39,3 +39,13 @@ Fun Facts:
 ---
 
 <sub>Badges generated with [shieldcn](https://shieldcn.dev/gen/profile)</sub>
+
+<!-- profile-card:start -->
+<a href="https://github.com/saipavan2702">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/saipavan2702/saipavan2702/main/profile-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/saipavan2702/saipavan2702/main/profile-light.svg">
+    <img src="https://raw.githubusercontent.com/saipavan2702/saipavan2702/main/profile-light.svg" alt="Sai Pavan's terminal-style GitHub profile card" width="100%">
+  </picture>
+</a>
+<!-- profile-card:end -->

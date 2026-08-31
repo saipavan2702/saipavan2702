@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="500" viewBox="0 0 980 500" role="img" aria-labelledby="title desc">
+  <title id="title">Sai Pavan's GitHub profile</title>
+  <desc id="desc">A terminal-inspired profile card showing Sai Pavan's stack, interests, and public GitHub statistics.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eff1f5"/>
+      <stop offset="1" stop-color="#e6e9ef"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity=".12"/>
+    </filter>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .row { font: 15px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+  </style>
+  <rect x="18" y="18" width="944" height="464" rx="22" fill="url(#bg)" stroke="#ccd0da" filter="url(#shadow)"/>
+  <circle cx="52" cy="48" r="6" fill="#f38ba8"/>
+  <circle cx="72" cy="48" r="6" fill="#f9e2af"/>
+  <circle cx="92" cy="48" r="6" fill="#a6e3a1"/>
+  <text x="490" y="54" text-anchor="middle" class="mono" font-size="12" fill="#8c8fa1">~/saipavan2702/profile</text>
+  <line x1="468" y1="82" x2="468" y2="446" stroke="#ccd0da"/>
+
+  <g class="mono">
+    <text x="64" y="120" font-size="18" font-weight="700" fill="#8839ef">sai@github</text>
+    <text x="64" y="146" font-size="14" fill="#8c8fa1">$ whoami</text>
+    <text x="64" y="210" font-size="50" font-weight="800" letter-spacing="5" fill="#1e66f5">SAI</text>
+    <text x="64" y="266" font-size="50" font-weight="800" letter-spacing="5" fill="#40a02b">PAVAN</text>
+    <path d="M65 287 H386" stroke="#ccd0da" stroke-width="2"/>
+    <text x="64" y="326" font-size="14" fill="#df8e1d">build · learn · repeat</text>
+    <text x="64" y="356" font-size="14" fill="#8c8fa1">One Piece enthusiast</text>
+    <text x="64" y="414" font-size="14" fill="#8839ef">❯</text>
+    <rect x="83" y="400" width="9" height="17" rx="1" fill="#4c4f69" opacity=".8"/>
+  </g>
+
+  <text x="510" y="102" class="mono" font-size="18" font-weight="700" fill="#4c4f69">profile</text>
+  <text x="510" y="130" class="row"><tspan fill="#1e66f5">Role</tspan><tspan fill="#8c8fa1">: </tspan><tspan fill="#40a02b">Software Engineer</tspan></text>
+    <text x="510" y="158" class="row"><tspan fill="#1e66f5">Based</tspan><tspan fill="#8c8fa1">: </tspan><tspan fill="#40a02b">India</tspan></text>
+    <text x="510" y="186" class="row"><tspan fill="#1e66f5">Frontend</tspan><tspan fill="#8c8fa1">: </tspan><tspan fill="#40a02b">React · TypeScript · Tailwind</tspan></text>
+    <text x="510" y="214" class="row"><tspan fill="#1e66f5">Backend</tspan><tspan fill="#8c8fa1">: </tspan><tspan fill="#40a02b">Node.js · Go · Java · Python</tspan></text>
+    <text x="510" y="242" class="row"><tspan fill="#1e66f5">Tools</tspan><tspan fill="#8c8fa1">: </tspan><tspan fill="#40a02b">Shell · Neovim · VS Code</tspan></text>
+    <text x="510" y="270" class="row"><tspan fill="#1e66f5">Hobbies</tspan><tspan fill="#8c8fa1">: </tspan><tspan fill="#40a02b">Anime · Gym · Building things</tspan></text>
+    <text x="510" y="326" class="row"><tspan fill="#1e66f5">Public repos</tspan><tspan fill="#8c8fa1">: </tspan><tspan fill="#40a02b">42</tspan></text>
+    <text x="510" y="354" class="row"><tspan fill="#1e66f5">Followers</tspan><tspan fill="#8c8fa1">: </tspan><tspan fill="#40a02b">syncing</tspan></text>
+    <text x="510" y="382" class="row"><tspan fill="#1e66f5">Stars earned</tspan><tspan fill="#8c8fa1">: </tspan><tspan fill="#40a02b">syncing</tspan></text>
+    <text x="510" y="410" class="row"><tspan fill="#1e66f5">On GitHub since</tspan><tspan fill="#8c8fa1">: </tspan><tspan fill="#40a02b">GitHub</tspan></text>
+  <text x="510" y="298" class="mono" font-size="18" font-weight="700" fill="#4c4f69">github.public</text>
+  <text x="510" y="446" class="mono" font-size="12" fill="#8c8fa1">public data · refreshed daily by GitHub Actions</text>
+</svg>
